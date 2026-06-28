@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsboost",
+  "version": "${version}",
+  "name": "FPS Boost",
+  "description": "A utility mod",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fpsboost/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.fpsboost.FpsBoostMod"
+    ],
+    "client": [
+      "com.fpsboost.client.FpsBoostClientMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  },
+  "no_display": true
+}
